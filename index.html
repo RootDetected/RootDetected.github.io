@@ -22,7 +22,7 @@
   </div>
 
   <script>
-    const path = location.hash.replace(/^#/, "") || "Empty";
+    const path = (location.hash && location.hash !== "#") ? location.hash.slice(1) : "Empty";
     const script = document.createElement("script");
     script.src = `tables/${path}.js`;
     script.onload = () => initPlanilha();
