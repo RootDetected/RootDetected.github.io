@@ -24,7 +24,7 @@
   <script>
     const path = location.hash.replace(/^#/, "");
     const script = document.createElement("script");
-    script.src = `${path}.js`;
+    script.src = `tables/${path}.js` || "Empty";
     script.onload = () => initPlanilha();
     script.onerror = () => alert("Table not found: " + path + ".");
     document.head.appendChild(script);
