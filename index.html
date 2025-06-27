@@ -82,9 +82,9 @@
           const tr = document.createElement("tr");
           linha.forEach((cel, i) => {
             const td = document.createElement("td");
-            td.innerHTML = cel.texto.replace(/\n/g, "<br>");
+            td.innerHTML = cel.text.replace(/\n/g, "<br>");
             td.style.backgroundColor = cel.bg;
-            td.style.color = cel.cor;
+            td.style.color = cel.color;
             td.style.position = "relative";
             if (i > 0) {
               const resizerLeft = document.createElement("div");
@@ -112,8 +112,8 @@
       function ordenarPorColuna(indice){
         ordemCrescente = {[indice]: !(ordemCrescente[indice] ?? false)};
         data.sort((a, b) => {
-          const v1 = a[indice].texto.toLowerCase();
-          const v2 = b[indice].texto.toLowerCase();
+          const v1 = a[indice].text.toLowerCase();
+          const v2 = b[indice].text.toLowerCase();
           if (v1 < v2) return ordemCrescente[indice] ? -1 : 1;
           if (v1 > v2) return ordemCrescente[indice] ? 1 : -1;
           return 0;
