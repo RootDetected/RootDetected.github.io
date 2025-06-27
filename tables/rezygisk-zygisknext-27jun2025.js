@@ -2,7 +2,7 @@ info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><b
 
 title="Comparison - ReZygisk / ZygiskNext - 27/Jun/2025";
 
-columns=["App","Package","ZN + Shamiko 1.2.5-414\n + NoHello_Unlocked v0.0.6-52-76636c4","ZN + Shamiko 1.2.5-414","RZ + Treat Wheel 0.0.3\n + NoHello_compat v0.0.7-54-04f62fb","RZ + Treat Wheel 0.0.3"];
+columns=["App","Package","Version","ZN + Shamiko 1.2.5-414\n + NoHello_Unlocked v0.0.6-52-76636c4","ZN + Shamiko 1.2.5-414","RZ + Treat Wheel 0.0.3\n + NoHello_compat v0.0.7-54-04f62fb","RZ + Treat Wheel 0.0.3"];
 
 data=[
     [{text:"BDO Online",bg:"#fff",color:"#000"},{text:"ph.com.bdo.retail",bg:"#fff",color:"#000"},{text:"1.17.0",bg:"#000",color:"#fff"},{text:"OK",bg:"#006600",color:"#fff"},{text:"OK",bg:"#006600",color:"#fff"},{text:"OK",bg:"#006600",color:"#fff"},{text:"OK",bg:"#006600",color:"#fff"}],
