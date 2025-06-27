@@ -22,9 +22,9 @@
   </div>
 
   <script>
-    const path = location.hash.replace(/^#/, "");
+    const path = location.hash.replace(/^#/, "") || "Empty";
     const script = document.createElement("script");
-    script.src = `tables/${path}.js` || "Empty";
+    script.src = `tables/${path}.js`;
     script.onload = () => initPlanilha();
     script.onerror = () => alert("Table not found: " + path + ".");
     document.head.appendChild(script);
