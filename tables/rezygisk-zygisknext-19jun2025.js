@@ -1,8 +1,9 @@
-
-
 info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><br><b>Android: 12 Kernel: 4.14</b><br><b>Magisk: Alpha 29001</b><br><br><b>Zygisk: ZygiskNext 1.2.9-521-e73dbfc</b><br>";
+
 title="Comparison - ReZygisk / ZygiskNext - 19/Jun/2025";
+
 columns=["App","Package","Shamiko v1.2.5-414\n+ NoHello_Unlocked v0.0.6-52-76636c4","Shamiko v1.2.5-414","NoHello v0.0.7-54-04f62fb","Enforce Denylist"];
+
 data=[
     [{texto:"BDO Online",bg:"#fff",cor:"#000"},{texto:"ph.com.bdo.retail",bg:"#fff",cor:"#000"},{texto:"OK",bg:"#006600",cor:"#fff"},{texto:"OK",bg:"#006600",cor:"#fff"},{texto:"OK",bg:"#006600",cor:"#fff"},{texto:"OK",bg:"#006600",cor:"#fff"}],
     [{texto:"BDO Pay",bg:"#fff",cor:"#000"},{texto:"ph.com.bdo.pay",bg:"#fff",cor:"#000"},{texto:"OK",bg:"#006600",cor:"#fff"},{texto:"OK",bg:"#006600",cor:"#fff"},{texto:"DETECTED",bg:"#ff0000",cor:"#fff"},{texto:"DETECTED",bg:"#ff0000",cor:"#fff"}],
