@@ -77,14 +77,34 @@
     <div id="planilha-wrapper">
       <div id="planilha-container"><noscript>Enable JavaScript!</noscript></div>
     </div>
-    <div id="planilha-rodape">v1.2 - by <a target="_blank" href="https://t.me/VD_Priv8">@VD_Priv8</a> - Join <a target="_blank" href="https://t.me/RootDetected">@RootDetected</a></div>
+    <div id="planilha-rodape">v1.3 - by <a target="_blank" href="https://t.me/VD_Priv8">@VD_Priv8</a> - Join <a target="_blank" href="https://t.me/RootDetected">@RootDetected</a></div>
   </div>
   <script>
-    const path = (location.hash && location.hash !== "#") ? location.hash.slice(1) : "Empty";
+  const url = new URL(location.href);
+    const rawPath = url.hash || url.search;
+    const path = rawPath ? rawPath.replace(/^[#?]/, "") : "";
     const script = document.createElement("script");
     script.src = `tables/${path}.js`;
     script.onload = () => initPlanilha();
-    script.onerror = () => alert("Table not found: " + path + ".");
+    script.onerror = () => {
+      fetch("https://api_github_com.vd171.ru/repos/RootDetected/RootDetected.github.io/contents/tables")
+        .then(r => r.json())
+        .then(files => {
+          const lista = files
+            .filter(file => file.name.endsWith(".js"))
+            .map(file => {
+              const nome = file.name.replace(".js", "");
+              return `<li><a href="?${nome}">${nome}</a></li>`
+            })
+            .join("");
+          document.getElementById("planilha-container").innerHTML = `<div style="padding:20px">
+              <b style="color:red">Table not found.</b><br><br>
+              <b>Tables available:</b>
+              <ul>${lista}</ul>
+            </div>`
+        })
+        .catch(() => { document.getElementById("planilha-wrapper").innerHTML = `<b style="padding:20px;color:red">Fail to fetch tables list.</b>` })
+    };
     document.head.appendChild(script);
     function initPlanilha(){
       document.getElementById("planilha-topo").innerHTML = info;
@@ -124,7 +144,6 @@
           resizerRight.style.padding = "8px";
           resizerRight.addEventListener("mousedown", iniciarResize(i));
           wrapper.appendChild(resizerRight);
-
           th.appendChild(wrapper);
           trHead.appendChild(th)
         });
