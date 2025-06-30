@@ -87,7 +87,7 @@
     script.src = `tables/${path}.js`;
     script.onload = () => initPlanilha();
     script.onerror = () => {
-      fetch("https://api_github_com.vd171.ru/repos/RootDetected/RootDetected.github.io/contents/tables")
+      fetch("https://api.github.com/repos/RootDetected/RootDetected.github.io/contents/tables", {headers: { Authorization: "Bearer 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" }})
         .then(r => r.json())
         .then(files => {
           const lista = files
