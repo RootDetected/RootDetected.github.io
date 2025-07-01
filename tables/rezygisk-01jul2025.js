@@ -1,4 +1,4 @@
-info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><br><b>Android: 12 Kernel: 4.14</b><br><b>Magisk: Alpha 29001</b><br><br><b>Zygisk: ReZygisk 385-9a3b2f4</b><br>";
+info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><br><b>Android: 12 Kernel: 4.14</b><br><b>Magisk: Alpha 29001</b>";
 
 title="Comparison - ReZygisk - 01/Jul/2025";
 
