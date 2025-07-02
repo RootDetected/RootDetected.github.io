@@ -24,5 +24,5 @@ data=[
     [{text:"Hunter",bg:"#fff",color:"#000"},{text:"com.zhenxi.hunter",bg:"#fff",color:"#000"},{text:"6.25",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Normal",bg:"#006600",color:"#fff"}],
     [{text:"Native Detector",bg:"#fff",color:"#000"},{text:"com.reveny.nativecheck",bg:"#fff",color:"#000"},{text:"7.2.0",bg:"#fff",color:"#000"},{text:"Found injection: Zygisk pid",bg:"#ff0000",color:"#fff"},{text:"Normal",bg:"#006600",color:"#fff"}],
     [{text:"Native Test",bg:"#fff",color:"#000"},{text:"icu.nullptr.nativetest",bg:"#fff",color:"#000"},{text:"30",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Normal",bg:"#006600",color:"#fff"}],
-    [{text:"Meow Detector",bg:"#fff",color:"#000"},{text:"com.thepedroo.meowdetector",bg:"#fff",color:"#000"},{text:"1.0",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Normal",bg:"#006600",color:"#fff"}],
+    [{text:"Meow Detector",bg:"#fff",color:"#000"},{text:"(Private)",bg:"#fff",color:"#000"},{text:"1.0",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Normal",bg:"#006600",color:"#fff"}],
 ];
