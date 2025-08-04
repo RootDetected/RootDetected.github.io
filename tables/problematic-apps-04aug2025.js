@@ -1,4 +1,4 @@
-info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><br><b>Android: 12 Kernel: 4.14</b><br><b>Magisk: Alpha 29001</b><br><br><b>RZ: ReZygisk 399-ee6cfc5</b><br><b>ZN: ZygiskNext v1.2.9.1-534-b8e7e21</b><br>";
+info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><br><b>Android: 12 Kernel: 4.14</b><br><b>Magisk: Alpha 30100</b><br><br><b>RZ: ReZygisk 399-ee6cfc5</b><br><b>ZN: ZygiskNext v1.2.9.1-534-b8e7e21</b><br>";
 
 title="Comparison - ReZygisk / ZygiskNext - 04/Aug/2025";
 
