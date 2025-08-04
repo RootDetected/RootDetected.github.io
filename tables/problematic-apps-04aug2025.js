@@ -2,7 +2,7 @@ info="<b>Device: Xiaomi Redmi Note 9</b><br><b>ROM: MIUI V13.0.2.0.SJOMIXM</b><b
 
 title="Comparison - ReZygisk / ZygiskNext - 04/Aug/2025";
 
-columns=["App","Package","Version","Code","ZN + Shamiko v1.2.5-414","RZ + Treat Wheel v0.0.3 + NoHello_compat v0.0.7","RZ 399-ee6cfc5 + Treat Wheel vV0.0.3","Enforce DenyList + Bult-in Zygisk","Enforce DenyList"];
+columns=["App","Package","Version","Code","ZN + Shamiko v1.2.5-414","RZ + Treat Wheel v0.0.3 + NoHello_compat v0.0.7","RZ 399-ee6cfc5 + Treat Wheel vV0.0.3","Enforce DenyList + Built-in Zygisk","Enforce DenyList"];
 
 data=[
 	[{text:"CAIXA Tem*",bg:"#fff",color:"#000"},{text:"br.gov.caixa.tem*",bg:"#fff",color:"#000"},{text:"1.91.16",bg:"#fff",color:"#000"},{text:"2194",bg:"#fff",color:"#000"},{text:"DETECTED",bg:"#ff0000",color:"#fff"},{text:"DETECTED",bg:"#ff0000",color:"#fff"},{text:"DETECTED",bg:"#ff0000",color:"#fff"},{text:"DETECTED",bg:"#ff0000",color:"#fff"},{text:"DETECTED",bg:"#ff0000",color:"#fff"}],
