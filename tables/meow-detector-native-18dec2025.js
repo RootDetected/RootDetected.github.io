@@ -10,5 +10,5 @@ data=[
 	[{text:"Hunter v6.42",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"SafetyDetectClient Not Find Security Manager<br>SafetyDetectClient Security Manager Sign Error<br>Find Prop Modify Mark Modified<br>Device Model and ROM",bg:"#ff0000",color:"#fff"}],
 	[{text:"Meow Detector Native v0.0.5",bg:"#fff",color:"#000"},{text:"Evil Services (14)",bg:"#ff0000",color:"#fff"},{text:"Abnormal Surroundings<br>Conventional Tests (12)<br>Suspicious Mounts<br>Unexpected App<br>Custom ROM<br>Detected Abnormal Props",bg:"#ff0000",color:"#fff"}],
 	[{text:"Native Detector v7.6.1",bg:"#fff",color:"#000"},{text:"Abnormal Environment: 611.000000<br>Mount gap: Mount peer id: 43",bg:"#ff0000",color:"#fff"},{text:"Abnormal Environment: 424.000000<br>Play Integrity Fix: config_certifiedKeybox",bg:"#006600",color:"#fff"}],
-	[{text:"Native Test v30",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Propery Modified (23)<br>Conventional Tests (10)",bg:"#ff0000",color:"#fff"}]
+	[{text:"Native Test v30",bg:"#fff",color:"#000"},{text:"Normal",bg:"#006600",color:"#fff"},{text:"Property Modified (23)<br>Conventional Tests (10)",bg:"#ff0000",color:"#fff"}]
 ];
